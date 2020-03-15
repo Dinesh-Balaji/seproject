@@ -17,7 +17,7 @@ public class MainActivityTest {
     @Rule
     public ActivityTestRule<MainActivity>mActivityTestRule = new ActivityTestRule<MainActivity>(MainActivity.class);
     private String word="BITCH";
-
+//
     @Before
     public void setUp() throws Exception {
 
