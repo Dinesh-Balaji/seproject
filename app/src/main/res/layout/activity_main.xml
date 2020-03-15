@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#0f3b52"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Comment:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/text_id"
+        android:layout_marginTop="80dp"/>
+
+    <EditText
+        android:id="@+id/comment_id"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_round"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Please avoid using offensive terms"
+        android:layout_below="@+id/text_id"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/comment_id"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_round"
+        android:textColor="#E91E63"
+        android:textAllCaps="false"
+        android:layout_marginTop="90dp"
+        android:id="@+id/submit_id"/>
+
+</RelativeLayout>
